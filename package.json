@@ -1,0 +1,34 @@
+{
+  "name": "tre-watch-collections",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regular/tre-watch-collections.git"
+  },
+  "keywords": [],
+  "author": "Jan Bölsche <jan@lagomorph.de> (https://regular.codes/)",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/regular/tre-watch-collections/issues"
+  },
+  "homepage": "https://github.com/regular/tre-watch-collections#readme",
+  "dependencies": {
+    "collect-mutations": "^1.0.6",
+    "debug": "^4.1.1",
+    "mutant": "^3.22.1",
+    "pull-stream": "^3.6.11",
+    "tre-prototypes": "^1.9.0"
+  },
+  "devDependencies": {
+    "flumedb": "^1.0.6",
+    "flumelog-offset": "^3.4.1",
+    "multicb": "^1.2.2",
+    "ssb-revisions": "^1.2.1",
+    "tape": "^4.10.1"
+  }
+}
